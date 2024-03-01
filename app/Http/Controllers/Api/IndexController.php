@@ -170,8 +170,6 @@ class IndexController extends Controller
             'message' => 'Logged in',
             'status' => 1
         ]);
-        // echo "<pre>";
-        // print_r($user);
     }
 
 
@@ -190,8 +188,6 @@ class IndexController extends Controller
                 'message' => 'user found',
                 'status' => 1
             ]);    
-        }
-        //     echo "<pre>";
-        // print_r($id);   
+        }   
     }
 }
