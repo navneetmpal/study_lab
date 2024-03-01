@@ -1,0 +1,26 @@
+.check_radio_label { display:inline-block; position:relative;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;}
+.check_label { line-height:24px; font-weight:700; font-size:16px; color:#353535; padding-left:32px; cursor:pointer;}
+.check_label a { color:#922b68;}			
+.check_label a:hover { text-decoration:underline;}
+
+.checkator_holder.checkbox { width:24px !important; height:24px !important; margin-right:15px !important; position:absolute; left:0; top:0;}
+.checkator.checkbox { position:absolute; top:0; right:0; bottom:0; left:0; z-index:1;}
+.checkator.checkbox { background:url(../images/check.png) no-repeat; }
+.checkator_source:checked+.checkator.checkbox:after {content:' '; width:100%; height:100%; position:absolute; left:0; top:0;}
+.checkator_source:checked+.checkator.checkbox:after { background:url(../images/checked.png) no-repeat;}
+
+.radio_label { line-height:24px; font-weight:700; font-size:16px; color:#353535; padding-left:35px; cursor:pointer;}
+.radio_label a { color:#922b68;}			
+.radio_label a:hover { text-decoration:underline;}
+
+.checkator_holder.radio { width:24px !important; height:24px !important; margin-right:15px !important; position:absolute; left:0; top:0;}
+.checkator.radio { position:absolute; top:0; right:0; bottom:0; left:0; z-index:1;}
+.checkator.radio { background:url(../images/radio_check.png) no-repeat; }
+.checkator_source:checked+.checkator.radio:after {content:' '; width:100%; height:100%; position:absolute; left:0; top:0;}
+.checkator_source:checked+.checkator.radio:after { background:url(../images/radio_checked.png) no-repeat;}
